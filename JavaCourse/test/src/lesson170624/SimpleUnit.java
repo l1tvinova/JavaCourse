@@ -1,3 +1,5 @@
+package lesson170624;
+
 public class SimpleUnit {
     public static boolean assertEquals(String actual, String expected) {
         boolean equals = actual.equals(expected);

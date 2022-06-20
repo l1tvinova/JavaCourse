@@ -1,3 +1,5 @@
+package lesson170624;
+
 public class MaxTest {
 
     public static void main(String[] args) {

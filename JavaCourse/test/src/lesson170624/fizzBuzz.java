@@ -1,9 +1,10 @@
+package lesson170624;
 
 public class fizzBuzz {
 
     public static void main(String[] args) {
 //        System.out.println("start");
-//        System.out.println(SimpleUnit.assertEquals("Hello", "Hello"));
+//        System.out.println(lesson170624.SimpleUnit.assertEquals("Hello", "Hello"));
 
         System.out.println(SimpleUnit.assertNotEquals(fizzBuzz(300), "Fizz"));
         System.out.println(SimpleUnit.assertNotEquals(fizzBuzz(5), "Fizz"));
