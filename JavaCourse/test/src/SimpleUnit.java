@@ -8,12 +8,24 @@ public class SimpleUnit {
         return equals;
     }
 
+    public static boolean assertEquals(int actual, int expected) {
+        boolean equals = actual == expected;
+        return equals;
+    }
+
     public static boolean assertNotEquals(String actual, String expected) {
         boolean notEquals = !actual.equals(expected);
         if (!notEquals) {
             System.err.println("Test failed: expected NOT  " + expected + ", but actual: " + actual);
         }
+        return notEquals;
+    }
 
+    public static boolean assertNotEquals(int actual, int expected) {
+        boolean notEquals = actual == expected;
+        if (!notEquals) {
+            System.err.println("Test failed: expected NOT  " + expected + ", but actual: " + actual);
+        }
         return notEquals;
     }
 }
